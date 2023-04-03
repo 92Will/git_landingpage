@@ -18,11 +18,6 @@ ol, ul {
     text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -58,3 +53,31 @@ a:hover {
     background-color: steelblue;
 }
 
+.section-one-main-container {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+}
+
+.section-one-text-container {
+Display:flex;
+Flex: 1;
+Justify-content: space-between;
+Align-content: center;
+border: 2px solid whitesmoke;
+    border-radius: 100px;
+}
+
+.left-box {
+    Align-text: center;
+    color: whitesmoke;
+    padding: 40px;
+}    
+
+img {
+    height: 50px;
+    border: 2px solid yellow;
+    border-radius: 25px;
+}
