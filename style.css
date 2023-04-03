@@ -22,3 +22,18 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 75px;
+    background-color: slategray;
+}
+
+.navbar-logo {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
