@@ -69,7 +69,6 @@ a:hover {
 
 .section-one-main-container {
     display: flex;
-    padding: 0px;
     justify-content: center;
     align-items: center;
     background-color: rgb(112, 139, 144);
@@ -83,6 +82,7 @@ max-width: 1000px;
 border: 2px solid whitesmoke;
     border-radius: 200px;
     margin-top: 60px;
+    margin-bottom: 30px;
     padding: 20px 20px;
 }
 
