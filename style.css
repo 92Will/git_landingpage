@@ -20,9 +20,17 @@ ol, ul {
 
 nav {
     display: flex;
+    width: 100%;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     background-color: slategray;
+    position: fixed;
+}
+
+.logo-box {
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 .navbar-logo {
@@ -34,6 +42,13 @@ nav {
 
 .nav-list {
     display: flex;
+}
+
+.webdev-img1 {
+    max-width: 25px;
+    border-radius: 50%;
+    box-shadow: 1px 1px;
+    border: 2px solid burlywood;
 }
 
 .nav-list .nav-item {
@@ -48,36 +63,59 @@ nav {
     color: whitesmoke;
     font-size: 12px;
 }
-
 a:hover {
     background-color: steelblue;
 }
 
 .section-one-main-container {
     display: flex;
-    padding: 5px;
+    padding: 0px;
     justify-content: center;
     align-items: center;
-    background-color: slategray;
+    background-color: rgb(112, 139, 144);
 }
 
 .section-one-text-container {
 Display:flex;
-Flex: 1;
 Justify-content: space-between;
-Align-content: center;
+align-items: center;
+max-width: 1000px;
 border: 2px solid whitesmoke;
-    border-radius: 100px;
+    border-radius: 200px;
+    margin-top: 60px;
+    padding: 20px 20px;
+}
+
+.first-button {
+    align-self: center;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 10px;
+    margin-top: 5px;
+    background-color: beige;
+    border-radius: 4px;
+    padding: 2px 12px;
 }
 
 .left-box {
-    Align-text: center;
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 5px;
     color: whitesmoke;
-    padding: 40px;
-}    
+    padding: 10px 10px;
+}
 
-img {
-    height: 50px;
-    border: 2px solid yellow;
-    border-radius: 25px;
+p {
+    font-size: 10px;
+}
+
+.webdev-img2 {
+    max-width: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px;
+    border: 2px solid burlywood;
 }
